@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Way to Automation Suite">
+
+
+  <test name="AddCustomer Test">
+    <classes>
+      <class name="com.starhub.testcases.AddCustomerTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="OpenAccount Test">
+    <classes>
+      
+      <class name="com.starhub.testcases.OpenAccountTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Forcefully Failed Test">
+    <classes>
+      
+      <class name="com.starhub.testcases.ForcefulFailed"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
